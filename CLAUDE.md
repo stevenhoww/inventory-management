@@ -63,6 +63,9 @@ npm install && npm run dev
 5. Revenue goals: $800K/month single, $9.6M YTD all months
 6. Always document non-obvious logic changes with comments
 
+## Code Guidelines
+- Always document non-obvious logic changes with comments
+
 ## File Locations
 - Views: `client/src/views/*.vue`
 - API Client: `client/src/api.js`
