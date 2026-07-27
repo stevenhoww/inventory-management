@@ -2,6 +2,8 @@
 
 Factory Inventory Management System Demo with GitHub integration - Full-stack application with Vue 3 frontend, Python FastAPI backend, and in-memory mock data (no database).
 
+> ⚠️ **This repository and any fork you create are PUBLIC.** Do not commit credentials, internal hostnames, or private registry URLs. `client/.npmrc` pins the public npm registry and `client/package-lock.json` is gitignored to prevent locally-configured registries from leaking into commits — leave both in place.
+
 ## Critical Tool Usage Rules
 
 ### Subagents
@@ -60,6 +62,9 @@ npm install && npm run dev
 4. Inventory filters don't support month (no time dimension)
 5. Revenue goals: $800K/month single, $9.6M YTD all months
 6. Always document non-obvious logic changes with comments
+
+## Code Guidelines
+- Always document non-obvious logic changes with comments
 
 ## File Locations
 - Views: `client/src/views/*.vue`
